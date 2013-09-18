@@ -1,0 +1,23 @@
+{   "pizze" : [
+    {
+        "name": "Margherita",
+        "ingredients": "tomato, mozzarella, basil"
+    },
+    {
+        "name": "Marinara",
+        "ingredients": "tomato, garlic, basil"
+    },
+    {
+        "name": "Capricciosa",
+        "ingredients": "tomato, mozzarella, olives, ham, mushroom, basil"
+    },
+    {
+        "name": "Diavola",
+        "ingredients": "tomato, mozzarella, pepperoni"
+    },
+    {
+        "name": "Quattro Formaggi",
+        "ingredients": "tomato, mozzarella, brie, blue cheese, cheddar"
+    }
+    ]
+}
