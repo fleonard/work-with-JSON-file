@@ -1,1 +1,1 @@
-Prototype of one page website with responsive nav and parallax scrolling. - Work in Progress -
+Prototype of how to use JSON file to get data. - Work in Progress -
