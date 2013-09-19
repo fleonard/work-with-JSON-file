@@ -1,23 +1,28 @@
 {   "pizze" : [
     {
         "name": "Margherita",
-        "ingredients": "tomato, mozzarella, basil"
+        "ingredients": "tomato, mozzarella, basil",
+        "price": "7"
     },
     {
         "name": "Marinara",
-        "ingredients": "tomato, garlic, basil"
+        "ingredients": "tomato, garlic, basil",
+        "price": "6"
     },
     {
         "name": "Capricciosa",
-        "ingredients": "tomato, mozzarella, olives, ham, mushroom, basil"
+        "ingredients": "tomato, mozzarella, olives, ham, mushroom, basil",
+        "price": "9"
     },
     {
         "name": "Diavola",
-        "ingredients": "tomato, mozzarella, pepperoni"
+        "ingredients": "tomato, mozzarella, pepperoni",
+        "price": "8"
     },
     {
         "name": "Quattro Formaggi",
-        "ingredients": "tomato, mozzarella, brie, blue cheese, cheddar"
+        "ingredients": "tomato, mozzarella, brie, blue cheese, cheddar",
+        "price": "9"
     }
     ]
 }

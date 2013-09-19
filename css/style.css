@@ -169,6 +169,10 @@ li:hover {
 	color: #FFFFFF;
 }
 
+#select-pizza ul span{
+	margin-left: 15px;
+}
+
 .overlay{
 	width: 920px;
 	height: 360px;
@@ -182,6 +186,16 @@ li:hover {
 .overlay h2{
 	padding-bottom:20px;
 	color: #FFFFFF;
+}
+
+.overlay ul span{
+	margin-left: 15px;
+}
+
+.overlay span{
+	margin-left: 15px;
+	color: #FFFFFF;
+	font-size: 20px;
 }
 
 .overlay input{
