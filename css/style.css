@@ -111,15 +111,18 @@ header h1{
 	opacity: 0.8;
 }
 
-#pizza-list {
-	float: left;
-	margin-right: 30px;
-	padding: 10px;
+.rounded{
 	-moz-border-radius: 5px;
 	border-radius: 5px;
 	-moz-box-shadow: 5px 5px 5px black;
 	-webkit-box-shadow: 5px 5px 5px black;
 	box-shadow: 5px 5px 5px black;
+}
+
+#pizza-list {
+	float: left;
+	margin-right: 30px;
+	padding: 10px;
 	background-color:#373E43;
 }
 #pizza-list h2{
@@ -158,17 +161,31 @@ li:hover {
     width: 220px;
 	float: left;
 	margin-right: 30px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-	-moz-box-shadow: 5px 5px 5px black;
-	-webkit-box-shadow: 5px 5px 5px black;
-	box-shadow: 5px 5px 5px black;
 	background-color:#373E43;
 }
 
 #select-pizza h2{
 	padding-bottom:20px;
 	color: #FFFFFF;
+}
+
+.overlay{
+	width: 920px;
+	height: 360px;
+	background-color:#373E43;
+	display:none;
+	top: 0;
+	left: 0;
+	padding: 20px;
+}
+
+.overlay h2{
+	padding-bottom:20px;
+	color: #FFFFFF;
+}
+
+.overlay input{
+	margin-top: 20px;
 }
 
 footer{
