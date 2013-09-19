@@ -51,9 +51,66 @@ html,body{
  	font-family: Ubuntu, sans-serif;
 	width:100%;
 	height:100%;
-	padding: 15px;
-	background-color:#DCDCDC;
 }
+html { 
+  background: url(../images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.myBackground.jpg', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='scale')";
+}
+
+/* Clear floats */
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.clearfix{
+  *zoom: 1;
+}
+
+/* Layout styles */
+
+header{
+    padding: 10px 0;            
+    background-color: #373E43;
+    box-shadow: 0 -3px 3px #000 inset;
+}
+
+header hgroup{
+    margin: 0 auto;
+    width: 960px;            
+}
+        
+header h1{
+    margin: 0;
+    font: 25px/1 Ubuntu, sans-serif;
+    float: left;
+    text-shadow: 0 1px 0 rgba(0,0,0,.9);   
+    color: #FFFFFF;         
+}
+
+#main{
+    margin: 50px auto 0 auto;
+    width: 960px;
+}
+
+.opaque{
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=80);
+	-moz-opacity: 0.80;
+	-khtml-opacity: 0.8;
+	opacity: 0.8;
+}
+
 #pizza-list {
 	float: left;
 	margin-right: 30px;
@@ -63,10 +120,11 @@ html,body{
 	-moz-box-shadow: 5px 5px 5px black;
 	-webkit-box-shadow: 5px 5px 5px black;
 	box-shadow: 5px 5px 5px black;
-	background-color:#B0C4DE;
+	background-color:#373E43;
 }
 #pizza-list h2{
 	padding-bottom:20px;
+	color: #FFFFFF;
 }
 #pizza-list label{
 	font-size: 12px;
@@ -83,7 +141,7 @@ ul {
  
 li {
   text-decoration: none;
-  color: #000;
+  color: #FFFFFF;
   display: block;
   width: 100%;
   cursor:pointer;
@@ -92,6 +150,7 @@ li {
  
 li:hover {
   background: #f6f6f6;
+  color: #373E43;
 }
 
 #select-pizza{
@@ -104,9 +163,39 @@ li:hover {
 	-moz-box-shadow: 5px 5px 5px black;
 	-webkit-box-shadow: 5px 5px 5px black;
 	box-shadow: 5px 5px 5px black;
-	background-color:#B0C4DE;
+	background-color:#373E43;
 }
 
 #select-pizza h2{
 	padding-bottom:20px;
+	color: #FFFFFF;
+}
+
+footer{
+	text-align: right;
+	position:fixed;
+	left:0px;
+	bottom:0px;
+	height:40px;
+	width:100%;
+	background-color: #373E43;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=80);
+	-moz-opacity: 0.80;
+	-khtml-opacity: 0.8;
+	opacity: 0.8;
+}
+
+footer p{
+	display: block;
+	color: #FFFFFF;
+    font-weight: normal;
+    text-decoration: none;
+    margin-top: 12px;
+    margin-right: 20px;
+}
+
+footer p a{
+    text-decoration: none;
+    color: #0091CA;
 }
