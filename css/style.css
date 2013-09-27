@@ -140,18 +140,21 @@ ul {
   margin: 0;
   padding: 0;
 }
-
  
 li {
   text-decoration: none;
   color: #FFFFFF;
   display: block;
   width: 100%;
-  cursor:pointer;
+
   margin-bottom: 5px;
 }
+
+#pizza-list li{
+  cursor:pointer;
+}
  
-li:hover {
+#pizza-list li:hover{
   background: #f6f6f6;
   color: #373E43;
 }

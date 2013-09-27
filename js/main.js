@@ -9,7 +9,7 @@
 		});
 
 
-        $("ul").on('click', 'li', function() {
+        $("#pizza-list ul").on('click', 'li', function() {
             var selected = $(this).data( "name" ),
                 price = $(this).data( "price" );
             var html = '<li data-price="'+  price +'">' + selected +'<span>' + price + '£</span></li>';
